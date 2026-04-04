@@ -1,0 +1,22 @@
+{
+    "name": "matrix-demos",
+    "version": "0.1.0",
+    "description": "Pre-built demo scenes (clock, cube, sprites) and scene controller for NeoPixel matrix panels",
+    "license": "MIT",
+    "authors": ["Roland Bach Kiss <rolandbachkiss@gmail.com>"],
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6",
+        "matrix-core": "github:rolandbachkiss/pxt-matrix-core",
+        "matrix-draw": "github:rolandbachkiss/pxt-matrix-draw",
+        "matrix-text": "github:rolandbachkiss/pxt-matrix-text",
+        "matrix-font-capital": "github:rolandbachkiss/pxt-matrix-font-capital",
+        "matrix-font-digits": "github:rolandbachkiss/pxt-matrix-font-digits",
+        "matrix-sprites": "github:rolandbachkiss/pxt-matrix-sprites",
+        "matrix-3d": "github:rolandbachkiss/pxt-matrix-3d"
+    },
+    "files": ["README.md", "matrix-demos.ts"],
+    "testFiles": ["test.ts"],
+    "supportedTargets": ["microbit"],
+    "preferredEditor": "tsprj"
+}
