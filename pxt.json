@@ -6,14 +6,14 @@
     "authors": ["Roland Bach Kiss <rolandbachkiss@gmail.com>"],
     "dependencies": {
         "core": "*",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6",
-        "matrix-core": "github:rolandbachkiss/pxt-matrix-core",
-        "matrix-draw": "github:rolandbachkiss/pxt-matrix-draw",
-        "matrix-text": "github:rolandbachkiss/pxt-matrix-text",
-        "matrix-font-capital": "github:rolandbachkiss/pxt-matrix-font-capital",
-        "matrix-font-digits": "github:rolandbachkiss/pxt-matrix-font-digits",
-        "matrix-sprites": "github:rolandbachkiss/pxt-matrix-sprites",
-        "matrix-3d": "github:rolandbachkiss/pxt-matrix-3d"
+        "matrix-core": "github:rolandbachkiss/pxt-matrix-core#v0.2.0",
+        "matrix-draw": "github:rolandbachkiss/pxt-matrix-draw#v0.1.0",
+        "matrix-text": "github:rolandbachkiss/pxt-matrix-text#v0.1.0",
+        "matrix-font-capital": "github:rolandbachkiss/pxt-matrix-font-capital#v0.1.0",
+        "matrix-font-lowercase": "github:rolandbachkiss/pxt-matrix-font-lowercase#v0.1.0",
+        "matrix-font-digits": "github:rolandbachkiss/pxt-matrix-font-digits#v0.1.0",
+        "matrix-sprites": "github:rolandbachkiss/pxt-matrix-sprites#v0.0.1",
+        "matrix-3d": "github:rolandbachkiss/pxt-matrix-3d#v0.1.0"
     },
     "files": ["README.md", "matrix-demos.ts"],
     "testFiles": ["test.ts"],

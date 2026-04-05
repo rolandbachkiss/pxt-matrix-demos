@@ -136,14 +136,14 @@ namespace matrixDemos {
     export function demoSprites(): void {
         if (!_spritesReady) {
             const smiley = matrixSprites.createSprite(
-                matrixSprites.SMILEY_HEX,
                 matrixSprites.SMILEY_W,
-                matrixSprites.SMILEY_H
+                matrixSprites.SMILEY_H,
+                matrixSprites.SMILEY_HEX
             )
             const ship = matrixSprites.createSprite(
-                matrixSprites.SHIP_HEX,
                 matrixSprites.SHIP_W,
-                matrixSprites.SHIP_H
+                matrixSprites.SHIP_H,
+                matrixSprites.SHIP_HEX
             )
             matrixSprites.addObject(smiley, 2, 2, 1, 1)
             matrixSprites.addObject(ship, matrixCore.width() - matrixSprites.SHIP_W - 2, matrixCore.height() - matrixSprites.SHIP_H - 2, -1, -1)
@@ -168,7 +168,7 @@ namespace matrixDemos {
         const cx = matrixCore.centerX()
         const cy = matrixCore.centerY() - 3
         const r = 13
-        matrixText.startScroll("HELLO WORLD", matrixCore.width(), matrixCore.height() - 6, matrixCore.rgb(0, 200, 100))
+        matrixText.startScroll("HELLO WORLD", matrixCore.height() - 6, matrixCore.rgb(0, 200, 100), 2)
 
         basic.forever(function () {
             const t = input.runningTime() / 1000   // seconds
