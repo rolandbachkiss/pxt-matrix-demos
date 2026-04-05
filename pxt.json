@@ -11,7 +11,7 @@
         "matrix-font-capital": "github:rolandbachkiss/pxt-matrix-font-capital#v0.1.0",
         "matrix-font-lowercase": "github:rolandbachkiss/pxt-matrix-font-lowercase#v0.1.0",
         "matrix-font-digits": "github:rolandbachkiss/pxt-matrix-font-digits#v0.1.0",
-        "matrix-sprites": "github:rolandbachkiss/pxt-matrix-sprites#v0.1.0",
+        "matrix-sprites": "github:rolandbachkiss/pxt-matrix-sprites#v0.0.1",
         "matrix-3d": "github:rolandbachkiss/pxt-matrix-3d#v0.1.0"
     },
     "files": [
