@@ -3,7 +3,6 @@
     "version": "0.1.0",
     "description": "Pre-built demo scenes (clock, cube, sprites) and scene controller for NeoPixel matrix panels",
     "license": "MIT",
-    "authors": ["Roland Bach Kiss <rolandbachkiss@gmail.com>"],
     "dependencies": {
         "core": "*",
         "matrix-core": "github:rolandbachkiss/pxt-matrix-core#v0.2.0",
@@ -12,11 +11,25 @@
         "matrix-font-capital": "github:rolandbachkiss/pxt-matrix-font-capital#v0.1.0",
         "matrix-font-lowercase": "github:rolandbachkiss/pxt-matrix-font-lowercase#v0.1.0",
         "matrix-font-digits": "github:rolandbachkiss/pxt-matrix-font-digits#v0.1.0",
-        "matrix-sprites": "github:rolandbachkiss/pxt-matrix-sprites#v0.0.1",
+        "matrix-sprites": "github:rolandbachkiss/pxt-matrix-sprites#v0.1.0",
         "matrix-3d": "github:rolandbachkiss/pxt-matrix-3d#v0.1.0"
     },
-    "files": ["README.md", "matrix-demos.ts"],
-    "testFiles": ["test.ts"],
-    "supportedTargets": ["microbit"],
-    "preferredEditor": "tsprj"
+    "files": [
+        "README.md",
+        "matrix-demos.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.21",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "authors": [
+        "Roland Bach Kiss <rolandbachkiss@gmail.com>"
+    ]
 }
