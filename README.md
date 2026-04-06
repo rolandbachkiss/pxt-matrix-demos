@@ -10,13 +10,13 @@ This MakeCode extension bundles three ready-to-run visual demos — a spinning 3
 
 | Extension | Provides |
 |---|---|
-| `matrix-core` | `clear()`, `updateDisplay()`, `centerX/Y()`, `width/height()`, `rgb()` |
-| `matrix-draw` | `circle()`, `fillCircle()`, `line()`, `rect()` |
-| `matrix-text` | `startScroll()`, `updateScroll()`, `drawText()` |
-| `matrix-font-capital` | Capital-letter bitmap font (auto-registered) |
-| `matrix-font-digits` | Digit bitmap font (auto-registered) |
-| `matrix-sprites` | `createSprite()`, `addObject()`, `updateObjects()`, `drawObjects()` |
-| `matrix-3d` | `createCube()`, `setRotation()`, `drawMesh()`, `sinDeg1000()`, `cosDeg1000()` |
+| [pxt-matrix-core](https://github.com/rolandbachkiss/pxt-matrix-core) | `clear()`, `updateDisplay()`, `centerX/Y()`, `width/height()`, `rgb()` |
+| [pxt-matrix-draw](https://github.com/rolandbachkiss/pxt-matrix-draw) | `circle()`, `fillCircle()`, `line()`, `rect()` |
+| [pxt-matrix-text](https://github.com/rolandbachkiss/pxt-matrix-text) | `startScroll()`, `updateScroll()`, `drawText()` |
+| [pxt-matrix-font-capital](https://github.com/rolandbachkiss/pxt-matrix-font-capital) | Capital-letter bitmap font (auto-registered) |
+| [pxt-matrix-font-digits](https://github.com/rolandbachkiss/pxt-matrix-font-digits) | Digit bitmap font (auto-registered) |
+| [pxt-matrix-sprites](https://github.com/rolandbachkiss/pxt-matrix-sprites) | `createSprite()`, `addObject()`, `updateObjects()`, `drawObjects()` |
+| [pxt-matrix-3d](https://github.com/rolandbachkiss/pxt-matrix-3d) | `createCube()`, `setRotation()`, `drawMesh()` |
 
 ---
 
